@@ -25,7 +25,9 @@ jobs:
             armv7-unknown-linux-gnueabihf \
             armv7-unknown-linux-musleabihf \
             arm-unknown-linux-gnueabi \
-            arm-unknown-linux-gnueabihf
+            arm-unknown-linux-gnueabihf \
+            arm-unknown-linux-musleabihf \
+            mipsel-unknown-linux-gnu
       - name: brew linkage
         run: |
           brew linkage --test --strict \
@@ -38,4 +40,6 @@ jobs:
             armv7-unknown-linux-gnueabihf \
             armv7-unknown-linux-musleabihf \
             arm-unknown-linux-gnueabi \
-            arm-unknown-linux-gnueabihf
+            arm-unknown-linux-gnueabihf \
+            arm-unknown-linux-musleabihf \
+            mipsel-unknown-linux-gnu
